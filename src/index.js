@@ -91,7 +91,7 @@ class WarmUP {
       this.folderName = this.custom.warmup.folderName
     }
     this.pathFolder = this.getPath(this.folderName)
-    this.pathFile = this.pathFolder + '/index.js'
+    this.pathFile = this.pathFolder + '/index.ts'
     this.pathHandler = this.folderName + '/index.warmUp'
 
     /** Default options */
